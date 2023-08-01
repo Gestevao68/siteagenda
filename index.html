@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto02_ex</title>
+    <link rel="stylesheet" href="./main.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form action="" id="form_exercicio">
+            <input type="text" id="nome_contato" placeholder="Nome do Contato" required>
+            <input type="text" id="sobrenome_contato" placeholder="Sobrenome do Contato" >
+            <input type="tel" id="numero_contato" placeholder="Numero do Contato" required >
+            <input type="email" id="nome_email" placeholder="Email">
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table cellspacing="0"></table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Numero</th>
+                    <th>E-Mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="nome_tabela">-</td>
+                    <td id="apelido_tabela">-</td>
+                    <td id="numero_tabela">-</td>
+                    <td id="email_tabela">-</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Numero de Contatos Total</td>
+                    <td id="numero_contatos_final">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
